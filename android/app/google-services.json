@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869995581381",
+    "project_id": "prueba-balam",
+    "storage_bucket": "prueba-balam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869995581381:android:4dfd8f7cf3221b213785ac",
+        "android_client_info": {
+          "package_name": "dropstudio.balam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869995581381-9no5n0op2431snaqbv24o1h1t2gu1rg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTiv6cj0YYTqySJ3P7OCqX6dAzAA0UiYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869995581381-9no5n0op2431snaqbv24o1h1t2gu1rg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
