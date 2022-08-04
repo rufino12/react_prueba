@@ -1,4 +1,4 @@
-package com.mynewapp;
+package com.shopertino;
 
 import com.facebook.react.ReactActivity;
 
