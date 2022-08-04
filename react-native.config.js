@@ -9,6 +9,11 @@ module.exports = {
       platforms: {
         android: null // this skips autolink for android
       }
+    },
+    "react-native-notifications": {
+      platforms: {
+        android: null // this skips autolink for android
+      }
     }
   }
 };

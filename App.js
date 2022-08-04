@@ -6,8 +6,8 @@
  * @flow strict-local
  */
 
-import React from 'react';
-import type { Node } from 'react';
+import React, { useEffect } from 'react';
+import { Node } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -25,11 +25,13 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { Pusher } from "pusher-js/react-native";
 import { PusherNotification } from "./plugins/pusher-notification";
 import { checkNotifications } from 'react-native-permissions';
 
 
-const Section = ({ children, title }): Node => {
+// const pusher = new 
+const Section = ({ children, title }) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -54,11 +56,17 @@ const Section = ({ children, title }): Node => {
     </View>
   );
 };
+
 checkNotifications().then(({ status, settings }) => {
   console.log(status)
 });
 
 const App: () => Node = () => {
+
+  // useEffect(() => {
+  //   PusherNotification.
+  // })
+
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
